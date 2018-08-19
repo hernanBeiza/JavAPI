@@ -1,0 +1,157 @@
+2018-08-19T17:55:35.397-0300 INFO Starting JavApiApplication on ubuntuBook with PID 1054 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19T17:55:35.405-0300 INFO No active profile set, falling back to default profiles: default
+2018-08-19T17:55:41.124-0300 INFO Started JavApiApplication in 6.409 seconds (JVM running for 7.836)
+2018-08-19T17:55:41.129-0300 INFO Info log
+2018-08-19T17:55:41.129-0300 WARN Hey, This is a warning!
+2018-08-19T17:55:41.129-0300 ERROR Oops! We have an Error. OK
+2018-08-19T17:55:41.129-0300 FATAL Damn! Fatal error. Please fix me.
+2018-08-19T17:55:41.129-0300 INFO This is an info message
+2018-08-19T17:55:41.129-0300 WARN This is a warn message
+2018-08-19T17:55:41.129-0300 ERROR This is an error message
+2018-08-19T17:55:41.130-0300 FATAL This is a fatal message
+2018-08-19T17:57:42.278-0300 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 1562 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19T17:57:42.300-0300 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19T17:57:47.282-0300 INFO  JavApiApplication:59 - Started JavApiApplication in 5.648 seconds (JVM running for 6.812)
+2018-08-19T17:57:47.286-0300 INFO  JavApiApplication:25 - Info log
+2018-08-19T17:57:47.286-0300 WARN  JavApiApplication:26 - Hey, This is a warning!
+2018-08-19T17:57:47.287-0300 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19T17:57:47.287-0300 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19T17:57:47.288-0300 INFO  JavApiApplication:31 - This is an info message
+2018-08-19T17:57:47.288-0300 WARN  JavApiApplication:32 - This is a warn message
+2018-08-19T17:57:47.288-0300 ERROR JavApiApplication:33 - This is an error message
+2018-08-19T17:57:47.289-0300 FATAL JavApiApplication:34 - This is a fatal message
+2018-08-19T17:58:17.955-0300 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 1857 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19T17:58:17.966-0300 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19T17:58:23.232-0300 INFO  JavApiApplication:59 - Started JavApiApplication in 5.743 seconds (JVM running for 6.929)
+2018-08-19T17:58:23.236-0300 INFO  JavApiApplication:25 - Info log
+2018-08-19T17:58:23.236-0300 WARN  JavApiApplication:26 - Hey, This is a warning!
+2018-08-19T17:58:23.237-0300 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19T17:58:23.237-0300 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19T17:58:23.237-0300 INFO  JavApiApplication:31 - This is an info message
+2018-08-19T17:58:23.238-0300 WARN  JavApiApplication:32 - This is a warn message
+2018-08-19T17:58:23.238-0300 ERROR JavApiApplication:33 - This is an error message
+2018-08-19T17:58:23.238-0300 FATAL JavApiApplication:34 - This is a fatal message
+[30m17:59:13.463 INFO  cl.hiperactivo.javapi.JavApiApplication.logStarting() @50 - Starting JavApiApplication on ubuntuBook with PID 2094 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+[m"[30m17:59:13.471 INFO  cl.hiperactivo.javapi.JavApiApplication.logStartupProfileInfo() @662 - No active profile set, falling back to default profiles: default
+[m"[30m17:59:20.210 INFO  cl.hiperactivo.javapi.JavApiApplication.logStarting() @50 - Starting JavApiApplication on ubuntuBook with PID 2183 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+[m"[30m17:59:20.221 INFO  cl.hiperactivo.javapi.JavApiApplication.logStartupProfileInfo() @662 - No active profile set, falling back to default profiles: default
+[m"[30m17:59:25.582 INFO  cl.hiperactivo.javapi.JavApiApplication.logStarted() @59 - Started JavApiApplication in 5.922 seconds (JVM running for 7.094)
+[m"[30m17:59:25.586 INFO  cl.hiperactivo.javapi.JavApiApplication.main() @25 - Info log
+[m"[33m17:59:25.587 WARN  cl.hiperactivo.javapi.JavApiApplication.main() @26 - Hey, This is a warning!
+[m"[31m17:59:25.588 ERROR cl.hiperactivo.javapi.JavApiApplication.main() @27 - Oops! We have an Error. OK
+[m"[31;5m17:59:25.588 FATAL cl.hiperactivo.javapi.JavApiApplication.main() @28 - Damn! Fatal error. Please fix me.
+[m"[30m17:59:25.588 INFO  cl.hiperactivo.javapi.JavApiApplication.main() @31 - This is an info message
+[m"[33m17:59:25.588 WARN  cl.hiperactivo.javapi.JavApiApplication.main() @32 - This is a warn message
+[m"[31m17:59:25.589 ERROR cl.hiperactivo.javapi.JavApiApplication.main() @33 - This is an error message
+[m"[31;5m17:59:25.589 FATAL cl.hiperactivo.javapi.JavApiApplication.main() @34 - This is a fatal message
+[m"[32m2018-08-19 18:00:41 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 2407 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+[m"[32m2018-08-19 18:00:41 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+[m"[32m2018-08-19 18:00:45 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 2508 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+[m[32m2018-08-19 18:00:45 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+[m[32m2018-08-19 18:00:50 INFO  JavApiApplication:59 - Started JavApiApplication in 5.569 seconds (JVM running for 6.648)
+[m[32m2018-08-19 18:00:50 INFO  JavApiApplication:25 - Info log
+[m[33m2018-08-19 18:00:50 WARN  JavApiApplication:26 - Hey, This is a warning!
+[m[1;31m2018-08-19 18:00:50 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+[m[1;31m2018-08-19 18:00:50 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+[m[32m2018-08-19 18:00:50 INFO  JavApiApplication:31 - This is an info message
+[m[33m2018-08-19 18:00:50 WARN  JavApiApplication:32 - This is a warn message
+[m[1;31m2018-08-19 18:00:50 ERROR JavApiApplication:33 - This is an error message
+[m[1;31m2018-08-19 18:00:50 FATAL JavApiApplication:34 - This is a fatal message
+[m[32m2018-08-19 18:00:56 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 2648 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+[m[32m2018-08-19 18:00:56 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+[m[32m2018-08-19 18:01:01 INFO  JavApiApplication:59 - Started JavApiApplication in 5.403 seconds (JVM running for 6.577)
+[m[32m2018-08-19 18:01:01 INFO  JavApiApplication:25 - Info log
+[m[33m2018-08-19 18:01:01 WARN  JavApiApplication:26 - Hey, This is a warning!
+[m[1;31m2018-08-19 18:01:01 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+[m[1;31m2018-08-19 18:01:01 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+[m[32m2018-08-19 18:01:01 INFO  JavApiApplication:31 - This is an info message
+[m[33m2018-08-19 18:01:01 WARN  JavApiApplication:32 - This is a warn message
+[m[1;31m2018-08-19 18:01:01 ERROR JavApiApplication:33 - This is an error message
+[m[1;31m2018-08-19 18:01:01 FATAL JavApiApplication:34 - This is a fatal message
+[m%d{yyyy-MM-dd HH:mm:ss} INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 2967 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+%d{yyyy-MM-dd HH:mm:ss} INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+%d{yyyy-MM-dd HH:mm:ss} INFO  JavApiApplication:59 - Started JavApiApplication in 5.468 seconds (JVM running for 6.521)
+%d{yyyy-MM-dd HH:mm:ss} INFO  JavApiApplication:25 - Info log
+%d{yyyy-MM-dd HH:mm:ss} WARN  JavApiApplication:26 - Hey, This is a warning!
+%d{yyyy-MM-dd HH:mm:ss} ERROR JavApiApplication:27 - Oops! We have an Error. OK
+%d{yyyy-MM-dd HH:mm:ss} FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+%d{yyyy-MM-dd HH:mm:ss} INFO  JavApiApplication:31 - This is an info message
+%d{yyyy-MM-dd HH:mm:ss} WARN  JavApiApplication:32 - This is a warn message
+%d{yyyy-MM-dd HH:mm:ss} ERROR JavApiApplication:33 - This is an error message
+%d{yyyy-MM-dd HH:mm:ss} FATAL JavApiApplication:34 - This is a fatal message
+2018-08-19 18:02:12 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3085 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:02:12 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:02:17 INFO  JavApiApplication:59 - Started JavApiApplication in 5.389 seconds (JVM running for 6.47)
+2018-08-19 18:02:17 INFO  JavApiApplication:25 - Info log
+2018-08-19 18:02:17 WARN  JavApiApplication:26 - Hey, This is a warning!
+2018-08-19 18:02:17 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19 18:02:17 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19 18:02:17 INFO  JavApiApplication:31 - This is an info message
+2018-08-19 18:02:17 WARN  JavApiApplication:32 - This is a warn message
+2018-08-19 18:02:17 ERROR JavApiApplication:33 - This is an error message
+2018-08-19 18:02:17 FATAL JavApiApplication:34 - This is a fatal message
+2018-08-19 18:02:25 highlight{INFO } JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3247 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:02:25 highlight{INFO } JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:02:30 highlight{INFO } JavApiApplication:59 - Started JavApiApplication in 5.564 seconds (JVM running for 6.716)
+2018-08-19 18:02:30 highlight{INFO } JavApiApplication:25 - Info log
+2018-08-19 18:02:30 highlight{WARN } JavApiApplication:26 - Hey, This is a warning!
+2018-08-19 18:02:30 highlight{ERROR} JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19 18:02:30 highlight{FATAL} JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19 18:02:30 highlight{INFO } JavApiApplication:31 - This is an info message
+2018-08-19 18:02:30 highlight{WARN } JavApiApplication:32 - This is a warn message
+2018-08-19 18:02:30 highlight{ERROR} JavApiApplication:33 - This is an error message
+2018-08-19 18:02:30 highlight{FATAL} JavApiApplication:34 - This is a fatal message
+2018-08-19 18:02:50 INFO  JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3378 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:02:50 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:02:56 INFO  JavApiApplication:59 - Started JavApiApplication in 6.527 seconds (JVM running for 7.832)
+2018-08-19 18:02:56 INFO  JavApiApplication:25 - Info log
+2018-08-19 18:02:56 WARN  JavApiApplication:26 - Hey, This is a warning!
+2018-08-19 18:02:56 ERROR JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19 18:02:56 FATAL JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19 18:02:56 INFO  JavApiApplication:31 - This is an info message
+2018-08-19 18:02:56 WARN  JavApiApplication:32 - This is a warn message
+2018-08-19 18:02:56 ERROR JavApiApplication:33 - This is an error message
+2018-08-19 18:02:56 FATAL JavApiApplication:34 - This is a fatal message
+2018-08-19 18:03:17 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3562 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:03:18 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:03:23 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.109 seconds (JVM running for 7.206)
+2018-08-19 18:03:23 [32mINFO [m JavApiApplication:25 - Info log
+2018-08-19 18:03:23 [33mWARN [m JavApiApplication:26 - Hey, This is a warning!
+2018-08-19 18:03:23 [1;31mERROR[m JavApiApplication:27 - Oops! We have an Error. OK
+2018-08-19 18:03:23 [1;31mFATAL[m JavApiApplication:28 - Damn! Fatal error. Please fix me.
+2018-08-19 18:03:23 [32mINFO [m JavApiApplication:31 - This is an info message
+2018-08-19 18:03:23 [33mWARN [m JavApiApplication:32 - This is a warn message
+2018-08-19 18:03:23 [1;31mERROR[m JavApiApplication:33 - This is an error message
+2018-08-19 18:03:23 [1;31mFATAL[m JavApiApplication:34 - This is a fatal message
+2018-08-19 18:04:32 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3731 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:04:32 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:04:42 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 3828 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:04:42 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:04:47 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.812 seconds (JVM running for 6.915)
+2018-08-19 18:04:47 [32mINFO [m JavApiApplication:24 - Info log
+2018-08-19 18:04:47 [33mWARN [m JavApiApplication:25 - Hey, This is a warning!
+2018-08-19 18:04:47 [1;31mERROR[m JavApiApplication:26 - Oops! We have an Error. OK
+2018-08-19 18:04:47 [1;31mFATAL[m JavApiApplication:27 - Damn! Fatal error. Please fix me.
+2018-08-19 18:04:47 [32mINFO [m JavApiApplication:30 - This is an info message
+2018-08-19 18:04:47 [33mWARN [m JavApiApplication:31 - This is a warn message
+2018-08-19 18:04:47 [1;31mERROR[m JavApiApplication:32 - This is an error message
+2018-08-19 18:04:47 [1;31mFATAL[m JavApiApplication:33 - This is a fatal message
+2018-08-19 18:05:41 [32mINFO [m IndexController:25 - IndexController: GET saludar();
+2018-08-19 18:05:41 [32mINFO [m IndexController:28 - This is an info message
+2018-08-19 18:05:41 [33mWARN [m IndexController:29 - This is a warn message
+2018-08-19 18:05:41 [1;31mERROR[m IndexController:30 - This is an error message
+2018-08-19 18:05:41 [1;31mFATAL[m IndexController:31 - This is a fatal message
+2018-08-19 18:08:00 [32mINFO [m JavApiApplicationTests:50 - Starting JavApiApplicationTests on ubuntuBook with PID 4167 (started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:08:00 [32mINFO [m JavApiApplicationTests:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:08:09 [32mINFO [m JavApiApplicationTests:59 - Started JavApiApplicationTests in 9.435 seconds (JVM running for 11.234)
+2018-08-19 18:10:47 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on ubuntuBook with PID 4384 (/home/hb/Documents/GitHub/JavAPI/target/classes started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-19 18:10:47 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-19 18:10:54 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.927 seconds (JVM running for 9.927)
+2018-08-19 18:10:54 [32mINFO [m JavApiApplication:24 - Info log
+2018-08-19 18:10:54 [33mWARN [m JavApiApplication:25 - Hey, This is a warning!
+2018-08-19 18:10:54 [1;31mERROR[m JavApiApplication:26 - Oops! We have an Error. OK
+2018-08-19 18:10:54 [1;31mFATAL[m JavApiApplication:27 - Damn! Fatal error. Please fix me.
+2018-08-19 18:10:54 [32mINFO [m JavApiApplication:30 - This is an info message
+2018-08-19 18:10:54 [33mWARN [m JavApiApplication:31 - This is a warn message
+2018-08-19 18:10:54 [1;31mERROR[m JavApiApplication:32 - This is an error message
+2018-08-19 18:10:54 [1;31mFATAL[m JavApiApplication:33 - This is a fatal message
