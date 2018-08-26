@@ -155,3 +155,8 @@
 2018-08-19 18:10:54 [33mWARN [m JavApiApplication:31 - This is a warn message
 2018-08-19 18:10:54 [1;31mERROR[m JavApiApplication:32 - This is an error message
 2018-08-19 18:10:54 [1;31mFATAL[m JavApiApplication:33 - This is a fatal message
+2018-08-25 19:38:20 [32mINFO [m JavApiApplicationTests:50 - Starting JavApiApplicationTests on ubuntuBook with PID 15631 (started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-25 19:38:20 [32mINFO [m JavApiApplicationTests:662 - No active profile set, falling back to default profiles: default
+2018-08-25 19:39:30 [32mINFO [m JavApiApplicationTests:50 - Starting JavApiApplicationTests on ubuntuBook with PID 15948 (started by hb in /home/hb/Documents/GitHub/JavAPI)
+2018-08-25 19:39:30 [32mINFO [m JavApiApplicationTests:662 - No active profile set, falling back to default profiles: default
+2018-08-25 19:39:44 [32mINFO [m JavApiApplicationTests:59 - Started JavApiApplicationTests in 14.302 seconds (JVM running for 17.396)
