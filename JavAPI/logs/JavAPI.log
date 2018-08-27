@@ -155,3 +155,29 @@
 2018-08-19 18:10:54 [33mWARN [m JavApiApplication:31 - This is a warn message
 2018-08-19 18:10:54 [1;31mERROR[m JavApiApplication:32 - This is an error message
 2018-08-19 18:10:54 [1;31mFATAL[m JavApiApplication:33 - This is a fatal message
+2018-08-23 18:12:35 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19520 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:12:35 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:13:23 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19579 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:13:23 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:14:12 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19648 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:14:12 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:14:59 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19706 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:15:00 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:15:55 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19774 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:15:55 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:16:01 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 19784 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-08-23 18:16:01 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-08-23 18:16:08 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.668 seconds (JVM running for 9.852)
+2018-08-23 18:16:08 [32mINFO [m JavApiApplication:24 - Info log
+2018-08-23 18:16:08 [33mWARN [m JavApiApplication:25 - Hey, This is a warning!
+2018-08-23 18:16:08 [1;31mERROR[m JavApiApplication:26 - Oops! We have an Error. OK
+2018-08-23 18:16:08 [1;31mFATAL[m JavApiApplication:27 - Damn! Fatal error. Please fix me.
+2018-08-23 18:16:08 [32mINFO [m JavApiApplication:30 - This is an info message
+2018-08-23 18:16:08 [33mWARN [m JavApiApplication:31 - This is a warn message
+2018-08-23 18:16:08 [1;31mERROR[m JavApiApplication:32 - This is an error message
+2018-08-23 18:16:08 [1;31mFATAL[m JavApiApplication:33 - This is a fatal message
+2018-08-23 18:16:14 [32mINFO [m IndexController:25 - IndexController: GET saludar();
+2018-08-23 18:16:14 [32mINFO [m IndexController:28 - This is an info message
+2018-08-23 18:16:14 [33mWARN [m IndexController:29 - This is a warn message
+2018-08-23 18:16:14 [1;31mERROR[m IndexController:30 - This is an error message
+2018-08-23 18:16:14 [1;31mFATAL[m IndexController:31 - This is a fatal message
