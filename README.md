@@ -3,30 +3,78 @@
 Ejemplo de estructura para una API Rest con Java y SpringBoot
 
 ## Rutas
-La API está despegada en el puerto 3000.
+La API está desplegada en el puerto 3000.
+
 ### GET /
-Muestra un saludo
-### GET /obtener
-Prueba de método GET
-### PUT /actualizar
-Prueba de método PUT
-Pide como parámetro obligatorio, en form-data, `idusuario`
-### POST /postear
-Prueba de método POST
-### DELETE /eliminar
-Prueba de método DELETE
+Muestra un saludo de bienvenida para la API
+
+### GET /nota
+Obtiene todas las notas guardads en la db
+
+### GET /nota/obtener/{idNota}
+Obtiene una nota específica según el id pasado por la url
+
+### POST /nota/
+Guarda una nota. 
+Necesita los parámetros en **formdata**
+
+- titulo
+- cuerpo
+
+### PUT /nota/{idNota}
+Edita una nota específica según el id pasado por la url
+Necesita los parámetros en **formdata**
+
+- titulo
+- cuerpo
+
+### DELETE /nota/{idNota}
+Elimina una nota específica según el id pasado por la url
+
+## Patrón de Diseño
+El patrón de diseño usado en este desarrollo es MVC. Sin embargo, presenta una variable en dónde se integran nuevos componentes en las capas. Un diagrama a continuación:
+
+![alt text](docs/EsquemaServicioDAO.png)
+
+### Models
+
+#### DTOS
+
+- Estas clases son finalmente objetos de transporte de datos
+- Su objetivo es compartir datos en la aplicación, transportar, compartir entre las distintas capas
+
+#### Entities
+
+- Estas clases están direcamente relacionadas con las entidades de la base de datos
+- Son una repressentación de la base de datos fidedignamente
+- Además se agregan las relaciones como una propiedad en la clase (revisar)
+
+### Persistence
+
+#### DAOS
+
+El objetivo de esta capa es:
+
+- Obtiene los datos usando el JPA
+
+### Services
+
+El objetivo de esta capa es:
+
+- Obtiene los datos consultando a los DAOS
 
 ## Arquitectura
-
-Este ejemplo sigue un patrón MVC clásico y básico
 
 ### Diagrama de clases (próximamente) 
 
 - Pronto
 
-### Modelo de datos (próximamente)
+### Modelo de datos
 
-- Pronto
+- Al tratarse de un ejemplo, es muy simple
+
+![alt text](docs/ModeloDeDatos.png)
+
 
 ## Futuro
 

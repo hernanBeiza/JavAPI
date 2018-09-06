@@ -19,8 +19,9 @@ public class JavApiApplication extends SpringBootServletInitializer {
 
         SpringApplication.run(JavApiApplication.class, args);
         System.setProperty("-DLog4jContextSelector", "org.apache.logging.log4j.core.async.AsyncLoggerContextSelector");
-
-        logger.debug("Debugging log");
+        logger.info("main();");
+        /*
+        logger.debug("Debug log");
         logger.info("Info log");
         logger.warn("Hey, This is a warning!");
         logger.error("Oops! We have an Error. OK");
@@ -31,8 +32,8 @@ public class JavApiApplication extends SpringBootServletInitializer {
         logger.warn("This is a warn message");
         logger.error("This is an error message");
         logger.fatal("This is a fatal message");
+        */
     }
-
 
     @Bean
     public TomcatServletWebServerFactory tomcatEmbeddedServletContainerFactory() {

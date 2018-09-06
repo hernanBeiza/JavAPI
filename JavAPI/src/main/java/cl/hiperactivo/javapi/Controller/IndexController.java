@@ -1,4 +1,4 @@
-package cl.hiperactivo.javapi.Controllers;
+package cl.hiperactivo.javapi.Controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,7 +13,6 @@ import org.apache.logging.log4j.Logger;
 
 @RestController
 @RequestMapping("/")
-
 public class IndexController {
 
     private static final Logger logger = LogManager.getLogger(IndexController.class);
@@ -23,19 +22,20 @@ public class IndexController {
     public ResponseEntity<Map<String,Object>>saludar() {
 
         logger.info("IndexController: GET saludar();");
-
+        /*
         logger.debug("This is a debug message");
         logger.info("This is an info message");
         logger.warn("This is a warn message");
         logger.error("This is an error message");
         logger.fatal("This is a fatal message");
-
+        */
         Map <String, Object> result = new HashMap<>();
         result.put("result",true);
         result.put("mensajes","Bienvenido a la API de Prueba JavAPI");
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
+    /*
     @RequestMapping(value = "/obtener", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>obtener() {
@@ -93,5 +93,6 @@ public class IndexController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
 
     }
+    */
 
 }
