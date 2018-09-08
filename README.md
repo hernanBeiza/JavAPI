@@ -73,7 +73,7 @@ El objetivo de esta capa es:
 
 - Al tratarse de un ejemplo, es muy simple
 
-![alt text](docs/ModeloDeDatos.png)
+![alt text](Docs/ModeloDeDatos.png)
 
 
 ## Futuro
