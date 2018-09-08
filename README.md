@@ -34,7 +34,7 @@ Elimina una nota específica según el id pasado por la url
 ## Patrón de Diseño
 El patrón de diseño usado en este desarrollo es MVC. Sin embargo, presenta una variable en dónde se integran nuevos componentes en las capas. Un diagrama a continuación:
 
-![alt text](docs/EsquemaServicioDAO.png)
+![alt text](Docs/EsquemaServicioDAO.png)
 
 ### Models
 
