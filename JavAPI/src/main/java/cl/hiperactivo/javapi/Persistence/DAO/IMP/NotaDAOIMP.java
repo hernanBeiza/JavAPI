@@ -50,17 +50,52 @@ public class NotaDAOIMP implements NotaDAO {
 
     @Override
     public boolean guardar(NotaDTO notaDTO) {
-        return false;
+        logger.info("guardar();");
+        NotaEntity notaEntity = new NotaEntity();
+        notaEntity.setTitulo(notaDTO.getTitulo());
+        notaEntity.setCuerpo(notaDTO.getCuerpo());
+        notaEntity.setValid(notaDTO.getValid());
+        try {
+            this.entityManager.persist(notaEntity);
+            return true;
+        } catch(Exception e){
+            logger.error(e.getLocalizedMessage());
+            return false;
+        }
     }
 
     @Override
     public boolean editar(NotaDTO notaDTO) {
-        return false;
+        logger.info("editar();");
+        NotaEntity notaEntity = new NotaEntity();
+        notaEntity.setIdNota(notaDTO.getIdNota());
+        notaEntity.setTitulo(notaDTO.getTitulo());
+        notaEntity.setCuerpo(notaDTO.getCuerpo());
+        notaEntity.setValid(notaDTO.getValid());
+        try {
+            this.entityManager.merge(notaEntity);
+            return true;
+        } catch(Exception e){
+            logger.error(e.getLocalizedMessage());
+            return false;
+        }
     }
 
     @Override
     public boolean eliminar(NotaDTO notaDTO) {
-        return false;
+        logger.info("eliminar();");
+        NotaEntity notaEntity = this.obtenerConID(notaDTO);
+        if(notaEntity!=null){
+            try {
+                this.entityManager.remove(notaEntity);
+                return true;
+            } catch (Exception e){
+                logger.error(e.getLocalizedMessage());
+                return false;
+            }
+        } else {
+            return false;
+        }
     }
 
 }

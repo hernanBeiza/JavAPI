@@ -9,8 +9,10 @@ import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.ArrayList;
 
+@Transactional
 @Service
 public class NotaServiceIMP implements NotaService {
 
@@ -53,17 +55,17 @@ public class NotaServiceIMP implements NotaService {
 
     @Override
     public boolean guardar(NotaDTO notaDTO) {
-        return false;
+        return this.notaDAO.guardar(notaDTO);
     }
 
     @Override
     public boolean editar(NotaDTO notaDTO) {
-        return false;
+        return this.notaDAO.editar(notaDTO);
     }
 
     @Override
     public boolean eliminar(NotaDTO notaDTO) {
-        return false;
+        return this.notaDAO.eliminar(notaDTO);
     }
 
 }

@@ -20,7 +20,6 @@ public class NotaController {
 
     private static final Logger logger = LogManager.getLogger(NotaController.class);
 
-
     @Autowired
     private NotaService notaService;
 
@@ -93,20 +92,30 @@ public class NotaController {
 
         Map <String, Object> result = new HashMap<>();
         if(enviar){
-            result.put("result",true);
+            NotaDTO notaDTO = new NotaDTO();
+            notaDTO.setTitulo(titulo);
+            notaDTO.setCuerpo(cuerpo);
+            notaDTO.setValid(1);
+            if(this.notaService.guardar(notaDTO)){
+                result.put("result",true);
+                result.put("mensajes","Nota guardada con éxito");
+            } else {
+                result.put("result",false);
+                result.put("errores","La nota no se pudo guardar");
+            }
         } else {
             result.put("result",false);
             result.put("errores",errores);
         }
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
-
     }
 
     @RequestMapping(value = "{idNota}", method = RequestMethod.PUT)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>> editar(@PathVariable Integer idNota,
                                                      @RequestParam(value="titulo", required = false) String titulo,
-                                                     @RequestParam(value="cuerpo", required = false) String cuerpo) {
+                                                     @RequestParam(value="cuerpo", required = false) String cuerpo,
+                                                     @RequestParam(value="valid", required = false) Integer valid) {
         logger.info("PUT editar();");
 
         boolean enviar = true;
@@ -123,11 +132,24 @@ public class NotaController {
             errores+="Cuerpo de la nota";
             enviar = false;
         }
-
+        if(valid==null){
+            errores+="Valid de la nota";
+            enviar = false;
+        }
         Map<String, Object> result = new HashMap<>();
         if(enviar){
-            result.put("result", true);
-            result.put("mensajes", "Enviaste todos los parámetros =)");
+            NotaDTO notaDTO = new NotaDTO();
+            notaDTO.setIdNota(idNota);
+            notaDTO.setTitulo(titulo);
+            notaDTO.setCuerpo(cuerpo);
+            notaDTO.setValid(valid);
+            if(this.notaService.editar(notaDTO)){
+                result.put("result",true);
+                result.put("mensajes","Nota editada con éxito");
+            } else {
+                result.put("result",false);
+                result.put("errores","La nota no se pudo editar");
+            }
         } else {
             result.put("result", false);
             result.put("errores", errores);
@@ -149,7 +171,15 @@ public class NotaController {
         }
         Map <String, Object> result = new HashMap<>();
         if(enviar){
-            result.put("result",true);
+            NotaDTO notaDTO = new NotaDTO();
+            notaDTO.setIdNota(idNota);
+            if(this.notaService.eliminar(notaDTO)){
+                result.put("result",true);
+                result.put("mensajes","Nota eliminada con éxito");
+            } else {
+                result.put("result",false);
+                result.put("errores","La nota no se pudo eliminar");
+            }
         } else {
             result.put("result",false);
             result.put("errores",errores);
