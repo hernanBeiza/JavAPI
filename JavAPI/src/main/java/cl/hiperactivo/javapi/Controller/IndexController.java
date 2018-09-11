@@ -17,7 +17,7 @@ public class IndexController {
 
     private static final Logger logger = LogManager.getLogger(IndexController.class);
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = {"/",""}, method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>saludar() {
 

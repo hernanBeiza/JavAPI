@@ -23,7 +23,7 @@ public class NotaController {
     @Autowired
     private NotaService notaService;
 
-    @RequestMapping(value = "", method = RequestMethod.GET)
+    @RequestMapping(value = {"","/"}, method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>obtener() {
         logger.info("GET obtener();");
@@ -41,7 +41,7 @@ public class NotaController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "{idNota}", method = RequestMethod.GET)
+    @RequestMapping(value = "/{idNota}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>obtenerConID(@PathVariable Integer idNota) {
 
@@ -73,7 +73,7 @@ public class NotaController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "", method = RequestMethod.POST)
+    @RequestMapping(value = {"","/"}, method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>guardar(@RequestParam(value="titulo", required = false) String titulo,
                                                      @RequestParam(value="cuerpo", required = false) String cuerpo) {
@@ -110,7 +110,7 @@ public class NotaController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "{idNota}", method = RequestMethod.PUT)
+    @RequestMapping(value = "/{idNota}", method = RequestMethod.PUT)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>> editar(@PathVariable Integer idNota,
                                                      @RequestParam(value="titulo", required = false) String titulo,
@@ -158,7 +158,7 @@ public class NotaController {
 
     }
 
-    @RequestMapping(value = "{idNota}", method = RequestMethod.DELETE)
+    @RequestMapping(value = "/{idNota}", method = RequestMethod.DELETE)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>eliminar(@PathVariable Integer idNota) {
 
