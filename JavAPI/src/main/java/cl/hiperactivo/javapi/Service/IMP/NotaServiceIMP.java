@@ -23,10 +23,12 @@ public class NotaServiceIMP implements NotaService {
 
     @Override
     public ArrayList<NotaDTO> obtener() {
+        logger.info("obtener();");
         ArrayList<NotaEntity> entities = this.notaDAO.obtener();
         if(entities!=null){
             if(entities.size()>0){
                 logger.info("Notas encontradas");
+                logger.info(entities);
                 ArrayList<NotaDTO> encontrados = new ArrayList<NotaDTO>();
                 for (NotaEntity entity : entities) {
                     NotaDTO dto = new NotaDTO(entity);

@@ -435,3 +435,306 @@
 2018-09-10 18:25:05 [32mINFO [m NotaDAOIMP:53 - guardar();
 2018-09-10 18:25:15 [32mINFO [m NotaController:119 - PUT editar();
 2018-09-10 18:25:15 [32mINFO [m NotaDAOIMP:69 - editar();
+2018-09-26 12:20:24 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 8519 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:20:24 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:20:32 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 9.107 seconds (JVM running for 12.073)
+2018-09-26 12:20:32 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:25:35 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:25:35 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:25:35 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:27:42 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:27:42 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:27:42 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:27:47 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:27:47 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:27:47 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:28:00 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:28:00 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:28:00 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:28:16 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:28:16 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:28:16 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:33:07 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:33:07 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:33:07 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:34:00 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 9738 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:34:00 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:34:09 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 9.431 seconds (JVM running for 11.077)
+2018-09-26 12:34:09 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:34:12 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:34:12 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:34:12 [32mINFO [m NotaServiceIMP:29 - Notas encontradas
+2018-09-26 12:34:16 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:34:16 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 3
+2018-09-26 12:34:16 [1;31mERROR[m NotaDAOIMP:46 - No entity found for query
+2018-09-26 12:34:17 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:34:17 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 2
+2018-09-26 12:34:18 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:34:18 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 1
+2018-09-26 12:34:20 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:34:20 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 2
+2018-09-26 12:38:14 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10028 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:38:14 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:38:59 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10081 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:38:59 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:39:09 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 9.886 seconds (JVM running for 11.349)
+2018-09-26 12:39:09 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:39:10 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:39:10 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 2
+2018-09-26 12:39:55 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10144 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:39:55 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:40:04 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10162 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:40:04 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:40:10 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.699 seconds (JVM running for 8.278)
+2018-09-26 12:40:10 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:40:14 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 12:40:14 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 2
+2018-09-26 12:40:19 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:40:19 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 12:40:19 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:40:19 [32mINFO [m NotaServiceIMP:31 - Notas encontradas
+2018-09-26 12:40:19 [32mINFO [m NotaServiceIMP:33 - []
+2018-09-26 12:40:43 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10217 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:40:43 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:40:51 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 8.566 seconds (JVM running for 9.954)
+2018-09-26 12:40:51 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:40:58 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:40:58 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 12:40:58 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:40:58 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 12:40:58 [32mINFO [m NotaServiceIMP:31 - [NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1, usuarioEntity=UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1}}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1, usuarioEntity=UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1}}]
+2018-09-26 12:44:05 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10444 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:44:05 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:44:28 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10469 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:44:28 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:44:53 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 10495 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:44:53 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:53:05 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11021 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:53:05 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:53:15 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11034 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:53:15 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:53:47 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11070 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:53:47 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:54:03 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11092 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:54:03 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:54:41 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11130 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:54:41 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:54:50 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11145 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:54:50 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:56:23 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 11256 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 12:56:23 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 12:56:28 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.733 seconds (JVM running for 6.959)
+2018-09-26 12:56:28 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 12:56:33 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 12:56:33 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 12:56:33 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 12:56:33 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:18:38 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15288 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:18:38 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:18:44 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.008 seconds (JVM running for 9.04)
+2018-09-26 14:18:44 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:18:47 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:18:47 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:18:47 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:18:47 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:19:06 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15319 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:19:06 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:19:20 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15336 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:19:20 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:19:26 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.469 seconds (JVM running for 7.848)
+2018-09-26 14:19:26 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:19:29 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:19:29 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:19:29 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:19:30 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:25:27 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15773 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:25:27 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:25:33 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.031 seconds (JVM running for 8.602)
+2018-09-26 14:25:33 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:25:38 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:25:38 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:25:38 [32mINFO [m NotaDAOIMP:25 - SELECT ne FROM NotaEntity AS ne INNER JOIN ne.usuarioEntity AS ue
+2018-09-26 14:25:38 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:25:59 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15829 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:26:00 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:26:07 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 8.581 seconds (JVM running for 9.969)
+2018-09-26 14:26:07 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:28:04 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 15969 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:28:04 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:28:13 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 9.484 seconds (JVM running for 11.411)
+2018-09-26 14:28:13 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:28:16 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:28:16 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:28:16 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:28:17 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:29:37 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 16081 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:29:37 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:29:43 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.203 seconds (JVM running for 7.366)
+2018-09-26 14:29:43 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:29:48 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:29:48 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:29:48 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:29:48 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:30:14 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 16121 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:30:14 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:30:19 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.152 seconds (JVM running for 7.936)
+2018-09-26 14:30:19 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:30:32 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:30:32 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:30:32 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:30:32 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:30:32 [32mINFO [m NotaServiceIMP:31 - [NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]
+2018-09-26 14:37:30 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 16610 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:37:30 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:37:36 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.979 seconds (JVM running for 8.791)
+2018-09-26 14:37:36 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:45:02 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17110 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:45:02 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:45:07 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.957 seconds (JVM running for 7.621)
+2018-09-26 14:45:07 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:45:58 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 14:45:58 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 14:45:58 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 14:45:58 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 14:45:58 [32mINFO [m NotaServiceIMP:31 - [NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]
+2018-09-26 14:49:06 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17364 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:49:06 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:49:11 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.36 seconds (JVM running for 8.209)
+2018-09-26 14:49:11 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:49:14 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-26 14:49:14 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-26 14:49:14 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-26 14:49:14 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-26 14:49:14 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}]
+2018-09-26 14:50:16 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17446 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:50:16 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:50:21 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.28 seconds (JVM running for 6.59)
+2018-09-26 14:50:21 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:50:28 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-26 14:50:28 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-26 14:50:28 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-26 14:50:28 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-26 14:50:28 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}, UsuarioEntity{idUsuario=2, nombre='Ryan', valid=1, notas=[NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]}]
+2018-09-26 14:51:02 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17495 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:51:02 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:51:07 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.844 seconds (JVM running for 7.418)
+2018-09-26 14:51:07 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:53:00 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17618 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:53:00 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:53:05 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.367 seconds (JVM running for 7.629)
+2018-09-26 14:53:05 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:53:36 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-26 14:53:36 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-26 14:53:36 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-26 14:53:36 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-26 14:53:36 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}, UsuarioEntity{idUsuario=2, nombre='Ryan', valid=1, notas=[NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]}]
+2018-09-26 14:54:39 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17745 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:54:39 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:54:45 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.744 seconds (JVM running for 8.198)
+2018-09-26 14:54:45 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:54:48 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-26 14:54:48 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-26 14:54:48 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-26 14:54:48 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-26 14:54:48 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}, UsuarioEntity{idUsuario=2, nombre='Ryan', valid=1, notas=[NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]}]
+2018-09-26 14:55:58 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 17842 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:55:58 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:56:04 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.034 seconds (JVM running for 7.347)
+2018-09-26 14:56:04 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 14:59:42 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 18084 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 14:59:42 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 14:59:47 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.398 seconds (JVM running for 6.986)
+2018-09-26 14:59:47 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 15:01:12 [32mINFO [m NotaController:29 - GET obtener();
+2018-09-26 15:01:12 [32mINFO [m NotaServiceIMP:26 - obtener();
+2018-09-26 15:01:12 [32mINFO [m NotaDAOIMP:25 - SELECT n FROM NotaEntity AS n
+2018-09-26 15:01:12 [32mINFO [m NotaServiceIMP:30 - Notas encontradas
+2018-09-26 15:01:12 [32mINFO [m NotaServiceIMP:31 - [NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}, NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]
+2018-09-26 15:01:45 [32mINFO [m NotaController:48 - GET obtenerConID();
+2018-09-26 15:01:45 [32mINFO [m NotaDAOIMP:39 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 1
+2018-09-26 15:01:48 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-26 15:01:48 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-26 15:01:48 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-26 15:01:48 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-26 15:01:48 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}, UsuarioEntity{idUsuario=2, nombre='Ryan', valid=1, notas=[NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]}]
+2018-09-26 15:01:50 [32mINFO [m UsuarioController:49 - GET obtenerConID();
+2018-09-26 15:01:50 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 1
+2018-09-26 15:01:51 [32mINFO [m UsuarioController:49 - GET obtenerConID();
+2018-09-26 15:01:51 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 2
+2018-09-26 15:01:52 [32mINFO [m UsuarioController:49 - GET obtenerConID();
+2018-09-26 15:01:52 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 3
+2018-09-26 15:01:52 [1;31mERROR[m UsuarioDAOIMP:48 - No entity found for query
+2018-09-26 15:02:15 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 18244 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-26 15:02:15 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-26 15:02:21 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.774 seconds (JVM running for 8.507)
+2018-09-26 15:02:21 [32mINFO [m JavApiApplication:22 - main();
+2018-09-26 15:02:24 [32mINFO [m UsuarioController:49 - GET obtenerConID();
+2018-09-26 15:02:24 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 3
+2018-09-26 15:02:24 [1;31mERROR[m UsuarioDAOIMP:48 - No entity found for query
+2018-09-27 14:28:21 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 3607 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:28:21 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:28:26 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 5.639 seconds (JVM running for 7.215)
+2018-09-27 14:28:26 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:29:21 [32mINFO [m UsuarioController:30 - GET obtener();
+2018-09-27 14:29:21 [32mINFO [m UsuarioServiceIMP:30 - obtener();
+2018-09-27 14:29:21 [32mINFO [m UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2018-09-27 14:29:21 [32mINFO [m UsuarioServiceIMP:34 - Notas encontradas
+2018-09-27 14:29:21 [32mINFO [m UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', valid=1, notas=[NotaEntity{idNota=1, titulo='Primera Nota', cuerpo='Bajada o descripción de la nota', timestamp='2018-09-26 12:17:08.0', valid=1}, NotaEntity{idNota=2, titulo='Segunda Nota', cuerpo='Bajada corta', timestamp='2018-09-26 12:17:29.0', valid=1}]}, UsuarioEntity{idUsuario=2, nombre='Ryan', valid=1, notas=[NotaEntity{idNota=3, titulo='Les Is More', cuerpo='R Les!!', timestamp='2018-09-26 14:50:05.0', valid=1}]}]
+2018-09-27 14:29:48 [32mINFO [m UsuarioController:82 - POST guardar();
+2018-09-27 14:32:25 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 3866 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:32:25 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:32:30 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.412 seconds (JVM running for 8.288)
+2018-09-27 14:32:30 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:32:46 [32mINFO [m UsuarioController:82 - POST guardar();
+2018-09-27 14:32:46 [32mINFO [m UsuarioDAOIMP:55 - guardar();
+2018-09-27 14:33:03 [32mINFO [m UsuarioController:114 - PUT editar();
+2018-09-27 14:33:03 [32mINFO [m UsuarioDAOIMP:70 - editar();
+2018-09-27 14:33:08 [32mINFO [m UsuarioController:114 - PUT editar();
+2018-09-27 14:33:08 [32mINFO [m UsuarioDAOIMP:70 - editar();
+2018-09-27 14:33:14 [32mINFO [m UsuarioController:114 - PUT editar();
+2018-09-27 14:33:14 [32mINFO [m UsuarioDAOIMP:70 - editar();
+2018-09-27 14:33:34 [32mINFO [m UsuarioController:155 - DELETE eliminar();
+2018-09-27 14:33:34 [32mINFO [m UsuarioDAOIMP:86 - eliminar();
+2018-09-27 14:33:34 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 3
+2018-09-27 14:33:42 [32mINFO [m UsuarioController:82 - POST guardar();
+2018-09-27 14:33:42 [32mINFO [m UsuarioDAOIMP:55 - guardar();
+2018-09-27 14:33:49 [32mINFO [m NotaController:81 - POST guardar();
+2018-09-27 14:33:55 [32mINFO [m NotaController:81 - POST guardar();
+2018-09-27 14:35:29 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 4057 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:35:29 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:35:34 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.851 seconds (JVM running for 8.64)
+2018-09-27 14:35:34 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:35:42 [32mINFO [m NotaController:82 - POST guardar();
+2018-09-27 14:35:46 [32mINFO [m NotaController:82 - POST guardar();
+2018-09-27 14:36:00 [32mINFO [m NotaController:82 - POST guardar();
+2018-09-27 14:36:00 [32mINFO [m NotaDAOIMP:53 - guardar();
+2018-09-27 14:36:00 [1;31mERROR[m NotaDAOIMP:62 - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2018-09-27 14:36:48 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 4142 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:36:48 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:36:54 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 6.628 seconds (JVM running for 9.425)
+2018-09-27 14:36:54 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:36:59 [32mINFO [m NotaController:82 - POST guardar();
+2018-09-27 14:36:59 [32mINFO [m NotaDAOIMP:54 - guardar();
+2018-09-27 14:37:32 [32mINFO [m NotaController:127 - PUT editar();
+2018-09-27 14:37:36 [32mINFO [m NotaController:127 - PUT editar();
+2018-09-27 14:37:36 [32mINFO [m NotaDAOIMP:73 - editar();
+2018-09-27 14:38:06 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 4235 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:38:06 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:38:12 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.384 seconds (JVM running for 9.291)
+2018-09-27 14:38:12 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:38:14 [32mINFO [m NotaController:127 - PUT editar();
+2018-09-27 14:38:14 [32mINFO [m NotaDAOIMP:73 - editar();
+2018-09-27 14:38:22 [32mINFO [m NotaController:127 - PUT editar();
+2018-09-27 14:38:22 [32mINFO [m NotaDAOIMP:73 - editar();
+2018-09-27 14:38:30 [32mINFO [m NotaController:127 - PUT editar();
+2018-09-27 14:38:30 [32mINFO [m NotaDAOIMP:73 - editar();
+2018-09-27 14:38:38 [32mINFO [m UsuarioController:155 - DELETE eliminar();
+2018-09-27 14:38:38 [32mINFO [m UsuarioDAOIMP:86 - eliminar();
+2018-09-27 14:38:38 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 4
+2018-09-27 14:39:08 [32mINFO [m JavApiApplication:50 - Starting JavApiApplication on HBMacBookPro.local with PID 4299 (/Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI/target/classes started by hernanBeiza in /Users/hernanBeiza/Documents/GitHub/JavAPI/JavAPI)
+2018-09-27 14:39:08 [32mINFO [m JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2018-09-27 14:39:14 [32mINFO [m JavApiApplication:59 - Started JavApiApplication in 7.17 seconds (JVM running for 8.507)
+2018-09-27 14:39:14 [32mINFO [m JavApiApplication:22 - main();
+2018-09-27 14:39:35 [32mINFO [m UsuarioController:155 - DELETE eliminar();
+2018-09-27 14:39:35 [32mINFO [m UsuarioDAOIMP:86 - eliminar();
+2018-09-27 14:39:35 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 4

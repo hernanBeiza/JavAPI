@@ -3,7 +3,9 @@ package cl.hiperactivo.javapi.Model.DTO;
 import cl.hiperactivo.javapi.Model.Entity.NotaEntity;
 
 public class NotaDTO {
+
     private Integer idNota;
+    private Integer idUsuario;
     private String titulo;
     private String cuerpo;
     private String timestamp;
@@ -11,16 +13,9 @@ public class NotaDTO {
 
     public NotaDTO() { }
 
-    public NotaDTO(Integer idNota, String titulo, String cuerpo, String timestamp, int valid) {
-        this.idNota = idNota;
-        this.titulo = titulo;
-        this.cuerpo = cuerpo;
-        this.timestamp = timestamp;
-        this.valid = valid;
-    }
-
     public NotaDTO(NotaEntity notaEntity){
         this.idNota = notaEntity.getIdNota();
+        this.idUsuario = notaEntity.getUsuarioEntity().getIdUsuario();
         this.titulo = notaEntity.getTitulo();
         this.cuerpo = notaEntity.getCuerpo();
         this.timestamp = notaEntity.getTimestamp();
@@ -33,6 +28,14 @@ public class NotaDTO {
 
     public void setIdNota(Integer idNota) {
         this.idNota = idNota;
+    }
+
+    public Integer getIdUsuario() {
+        return idUsuario;
+    }
+
+    public void setIdUsuario(Integer idUsuario) {
+        this.idUsuario = idUsuario;
     }
 
     public String getTitulo() {
@@ -71,6 +74,7 @@ public class NotaDTO {
     public String toString() {
         return "NotaDTO{" +
                 "idNota=" + idNota +
+                ", idUsuario=" + idUsuario +
                 ", titulo='" + titulo + '\'' +
                 ", cuerpo='" + cuerpo + '\'' +
                 ", timestamp='" + timestamp + '\'' +

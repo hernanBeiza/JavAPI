@@ -2,33 +2,63 @@
 
 Ejemplo de estructura para una API Rest con Java y SpringBoot
 
-## Rutas
-La API está desplegada en el puerto 3000.
+## Antes de probar
+- Instalar la base de datos usando el script de creación de **MySQLWorkbench**
+- Revisar el puerto en el **application.properties**
 
-### GET /
+### Rutas
+#### GET /
 Muestra un saludo de bienvenida para la API
 
-### GET /nota
-Obtiene todas las notas guardads en la db
+### Usuarios
+#### GET /usuario
+Obtiene todas los usuarios y sus notas en la db
 
-### GET /nota/obtener/{idNota}
+#### GET /usuario/{idUsuario}
 Obtiene una nota específica según el id pasado por la url
 
-### POST /nota/
+#### POST /usuario/ (Pendiente)
+Guarda un usuario. 
+Necesita los parámetros en **formdata**
+
+- nombre
+
+#### PUT /usuario/{idUsuario} (Pendiente)
+Edita un usuario específica según el id pasado por la url
+Necesita los parámetros en **formdata**
+
+- nombre
+- valid
+
+#### DELETE /usuario/{idUsuario} (Pendiente)
+- Elimina un usuario específica y todas sus notas según el id pasado por la url
+- CascadeType.REMOVE
+
+### Notas
+#### GET /nota
+Obtiene todas las notas guardads en la db
+
+#### GET /nota/obtener/{idNota}
+Obtiene una nota específica según el id pasado por la url
+
+#### POST /nota/ (Pendiente)
 Guarda una nota. 
 Necesita los parámetros en **formdata**
 
+- idUsuario
 - titulo
 - cuerpo
 
-### PUT /nota/{idNota}
+#### PUT /nota/{idNota} (Pendiente)
 Edita una nota específica según el id pasado por la url
 Necesita los parámetros en **formdata**
 
+- idUsuario
 - titulo
 - cuerpo
+- valid
 
-### DELETE /nota/{idNota}
+#### DELETE /nota/{idNota} (Pendiente)
 Elimina una nota específica según el id pasado por la url
 
 ## Patrón de Diseño

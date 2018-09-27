@@ -1,5 +1,8 @@
 package cl.hiperactivo.javapi.Model.Entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import javax.persistence.*;
 import java.io.Serializable;
 
@@ -11,7 +14,10 @@ public class NotaEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "idnota")
     private Integer idNota;
-
+/*
+    @Column(name = "idusuario")
+    private Integer idUsuario;
+*/
     @Column(name="titulo")
     private String titulo;
 
@@ -23,6 +29,11 @@ public class NotaEntity implements Serializable {
 
     @Column(name = "valid")
     private int valid;
+
+    @ManyToOne
+    @JoinColumn(name="idusuario")
+    @JsonBackReference
+    private UsuarioEntity usuarioEntity;
 
     public Integer getIdNota() {
         return idNota;
@@ -64,15 +75,22 @@ public class NotaEntity implements Serializable {
         this.valid = valid;
     }
 
+    public UsuarioEntity getUsuarioEntity() {
+        return usuarioEntity;
+    }
+
+    public void setUsuarioEntity(UsuarioEntity usuarioEntity) {
+        this.usuarioEntity = usuarioEntity;
+    }
+
     @Override
     public String toString() {
         return "NotaEntity{" +
-            "idNota=" + idNota +
-            ", titulo=" + titulo +
-            ", cuerpo='" + cuerpo + '\'' +
-            ", timestamp='" + timestamp + '\'' +
-            ", valid=" + valid +
-            '}';
+                "idNota=" + idNota +
+                ", titulo='" + titulo + '\'' +
+                ", cuerpo='" + cuerpo + '\'' +
+                ", timestamp='" + timestamp + '\'' +
+                ", valid=" + valid +
+                '}';
     }
-
 }
