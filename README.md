@@ -108,8 +108,7 @@ El objetivo de esta capa es:
 
 ## Futuro
 
-- Terminar la estructura de Servicios, Modelos, DAOs y conectar con una base de datos
-- Escribir la documentación de la arquitectura incluyendo un diagrama de clases y del modelo de datos
+- Escribir la documentación de la arquitectura incluyendo un diagrama de clases
 
 ## Dependencias Usadas
 ### log4j2
