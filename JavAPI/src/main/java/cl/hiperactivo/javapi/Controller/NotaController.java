@@ -73,6 +73,37 @@ public class NotaController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
+    @RequestMapping(value = "/usuario/{idUsuario}", method = RequestMethod.GET)
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<Map<String,Object>>obtenerConIDUsuario(@PathVariable Integer idUsuario) {
+        logger.info("GET obtenerConIDUsuario();");
+        boolean enviar = true;
+        String errores = "Te faltó enviar:\n";
+        if(idUsuario==null){
+            errores+="el id del usuario";
+            enviar = false;
+        }
+        Map <String, Object> result = new HashMap<>();
+        if(enviar){
+            NotaDTO dto = new NotaDTO();
+            dto.setIdUsuario(idUsuario);
+            ArrayList<NotaDTO> notas = this.notaService.obtenerConIDUsuario(dto);
+            if(notas!=null){
+                result.put("result",true);
+                result.put("notas",notas);
+                result.put("mensajes","Se encontraron notas con ese usuario");
+            } else {
+                result.put("result",false);
+                result.put("notas",null);
+                result.put("errores","No se encontraron notas de ese usuario");
+            }
+        } else {
+            result.put("result",false);
+            result.put("errores",errores);
+        }
+        return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
+    }
+
     @RequestMapping(value = {"","/"}, method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>>guardar(@RequestParam(value="idUsuario", required = false) Integer idUsuario,
@@ -103,12 +134,16 @@ public class NotaController {
             notaDTO.setTitulo(titulo);
             notaDTO.setCuerpo(cuerpo);
             notaDTO.setValid(1);
-            if(this.notaService.guardar(notaDTO)){
+
+            NotaDTO nuevaNotaDTO = this.notaService.guardar(notaDTO);
+            if(nuevaNotaDTO!=null){
                 result.put("result",true);
                 result.put("mensajes","Nota guardada con éxito");
+                result.put("nota",nuevaNotaDTO);
             } else {
                 result.put("result",false);
                 result.put("errores","La nota no se pudo guardar");
+                result.put("nota",null);
             }
         } else {
             result.put("result",false);
@@ -156,12 +191,16 @@ public class NotaController {
             notaDTO.setTitulo(titulo);
             notaDTO.setCuerpo(cuerpo);
             notaDTO.setValid(valid);
-            if(this.notaService.editar(notaDTO)){
+
+            NotaDTO nuevaNotaDTO = this.notaService.editar(notaDTO);
+            if(nuevaNotaDTO!=null){
                 result.put("result",true);
                 result.put("mensajes","Nota editada con éxito");
+                result.put("nota",nuevaNotaDTO);
             } else {
                 result.put("result",false);
-                result.put("errores","La nota no se pudo editar");
+                result.put("errores","La nota no se pudo guardar");
+                result.put("nota",null);
             }
         } else {
             result.put("result", false);

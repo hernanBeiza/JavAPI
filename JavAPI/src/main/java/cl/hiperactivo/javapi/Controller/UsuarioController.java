@@ -42,21 +42,21 @@ public class UsuarioController {
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
-    @RequestMapping(value = "/{idNota}", method = RequestMethod.GET)
+    @RequestMapping(value = "/{idUsuario}", method = RequestMethod.GET)
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Map<String,Object>>obtenerConID(@PathVariable Integer idNota) {
+    public ResponseEntity<Map<String,Object>>obtenerConID(@PathVariable Integer idUsuario) {
 
         logger.info("GET obtenerConID();");
         boolean enviar = true;
         String errores = "Te faltó enviar:\n";
-        if(idNota==null){
+        if(idUsuario==null){
             errores+="el id de la nota";
             enviar = false;
         }
         Map <String, Object> result = new HashMap<>();
         if(enviar){
             UsuarioDTO dto = new UsuarioDTO();
-            dto.setIdUsuario(idNota);
+            dto.setIdUsuario(idUsuario);
             UsuarioDTO usuarioEncontrado = this.usuarioService.obtenerConID(dto);
             if(usuarioEncontrado!=null){
                 result.put("result",true);
@@ -76,21 +76,32 @@ public class UsuarioController {
 
     @RequestMapping(value = {"","/"}, method = RequestMethod.POST)
     @ResponseStatus(HttpStatus.OK)
-    public ResponseEntity<Map<String,Object>>guardar(@RequestParam(value="titulo", required = false) String titulo,
-                                                     @RequestParam(value="cuerpo", required = false) String cuerpo) {
+    public ResponseEntity<Map<String,Object>>guardar(@RequestParam(value="nombre", required = false) String nombre,
+                                                     @RequestParam(value="usuario", required = false) String usuario,
+                                                     @RequestParam(value="contrasena", required = false) String contrasena) {
 
         logger.info("POST guardar();");
         boolean enviar = true;
-        String errores = "Te faltó enviar:\n";
-        if(titulo==null){
-            errores+="Nombre";
+        String errores = "Te faltó enviar:";
+        if(nombre==null){
+            errores+="\nNombre";
+            enviar = false;
+        }
+        if(usuario==null){
+            errores+="\nUsuario";
+            enviar = false;
+        }
+        if(contrasena==null){
+            errores+="\nContraseña";
             enviar = false;
         }
 
         Map <String, Object> result = new HashMap<>();
         if(enviar){
             UsuarioDTO usuarioDTO = new UsuarioDTO();
-            usuarioDTO.setNombre(titulo);
+            usuarioDTO.setNombre(nombre);
+            usuarioDTO.setUsuario(usuario);
+            usuarioDTO.setContrasena(contrasena);
             usuarioDTO.setValid(1);
             if(this.usuarioService.guardar(usuarioDTO)){
                 result.put("result",true);
@@ -109,22 +120,32 @@ public class UsuarioController {
     @RequestMapping(value = "/{idUsuario}", method = RequestMethod.PUT)
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<Map<String,Object>> editar(@PathVariable Integer idUsuario,
-                                                     @RequestParam(value="titulo", required = false) String nombre,
+                                                     @RequestParam(value="nombre", required = false) String nombre,
+                                                     @RequestParam(value="usuario", required = false) String usuario,
+                                                     @RequestParam(value="contrasena", required = false) String contrasena,
                                                      @RequestParam(value="valid", required = false) Integer valid) {
         logger.info("PUT editar();");
 
         boolean enviar = true;
-        String errores = "Te faltó enviar:\n";
+        String errores = "Te faltó enviar:";
         if (idUsuario == null) {
-            errores+="ID del usuario";
+            errores+="\nID del usuario";
             enviar = false;
         }
         if(nombre==null){
-            errores+="Nombre";
+            errores+="\nNombre";
+            enviar = false;
+        }
+        if(usuario==null){
+            errores+="\nUsuario";
+            enviar = false;
+        }
+        if(contrasena==null){
+            errores+="\nContraseña";
             enviar = false;
         }
         if(valid==null){
-            errores+="Valid";
+            errores+="\nValid";
             enviar = false;
         }
         Map<String, Object> result = new HashMap<>();
@@ -132,6 +153,8 @@ public class UsuarioController {
             UsuarioDTO usuarioDTO = new UsuarioDTO();
             usuarioDTO.setIdUsuario(idUsuario);
             usuarioDTO.setNombre(nombre);
+            usuarioDTO.setUsuario(usuario);
+            usuarioDTO.setContrasena(contrasena);
             usuarioDTO.setValid(valid);
             if(this.usuarioService.editar(usuarioDTO)){
                 result.put("result",true);
@@ -156,7 +179,7 @@ public class UsuarioController {
         boolean enviar = true;
         String errores = "Te faltó enviar:\n";
         if (idUsuario == null) {
-            errores+="ID delusuarioa";
+            errores+="ID del usuario";
             enviar = false;
         }
         Map <String, Object> result = new HashMap<>();

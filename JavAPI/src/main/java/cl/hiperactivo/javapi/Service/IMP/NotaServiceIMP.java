@@ -56,13 +56,43 @@ public class NotaServiceIMP implements NotaService {
     }
 
     @Override
-    public boolean guardar(NotaDTO notaDTO) {
-        return this.notaDAO.guardar(notaDTO);
+    public  ArrayList<NotaDTO> obtenerConIDUsuario(NotaDTO notaDTO) {
+        ArrayList<NotaEntity> entities = this.notaDAO.obtenerConIDUsuario(notaDTO);
+        if(entities!=null){
+            if(entities.size()>0){
+                logger.info("Notas encontradas");
+                logger.info(entities);
+                ArrayList<NotaDTO> encontrados = new ArrayList<NotaDTO>();
+                for (NotaEntity entity : entities) {
+                    NotaDTO dto = new NotaDTO(entity);
+                    encontrados.add(dto);
+                }
+                return encontrados;
+            } else {
+                return null;
+            }
+        } else {
+            logger.error("No se encontraron notas");
+            return null;
+        }    }
+
+    @Override
+    public NotaDTO guardar(NotaDTO notaDTO) {
+        NotaEntity notaEntity = this.notaDAO.guardar(notaDTO);
+        NotaDTO nuevaNotaDTO = new NotaDTO(notaEntity);
+        return nuevaNotaDTO;
     }
 
     @Override
-    public boolean editar(NotaDTO notaDTO) {
-        return this.notaDAO.editar(notaDTO);
+    public NotaDTO editar(NotaDTO notaDTO) {
+        NotaEntity notaEntity = this.notaDAO.editar(notaDTO);
+        System.out.println(notaEntity);
+        if(notaEntity!=null){
+            NotaDTO nuevaNotaDTO = new NotaDTO(notaEntity);
+            return nuevaNotaDTO;
+        } else {
+            return null;
+        }
     }
 
     @Override

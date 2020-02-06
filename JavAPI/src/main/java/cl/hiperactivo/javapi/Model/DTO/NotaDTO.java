@@ -14,12 +14,14 @@ public class NotaDTO {
     public NotaDTO() { }
 
     public NotaDTO(NotaEntity notaEntity){
-        this.idNota = notaEntity.getIdNota();
-        this.idUsuario = notaEntity.getUsuarioEntity().getIdUsuario();
-        this.titulo = notaEntity.getTitulo();
-        this.cuerpo = notaEntity.getCuerpo();
-        this.timestamp = notaEntity.getTimestamp();
-        this.valid = notaEntity.getValid();
+        if(notaEntity!=null){
+            this.idNota = notaEntity.getIdNota();
+            this.idUsuario = notaEntity.getUsuarioEntity().getIdUsuario();
+            this.titulo = notaEntity.getTitulo();
+            this.cuerpo = notaEntity.getCuerpo();
+            this.timestamp = notaEntity.getTimestamp();
+            this.valid = notaEntity.getValid();
+        }
     }
 
     public Integer getIdNota() {

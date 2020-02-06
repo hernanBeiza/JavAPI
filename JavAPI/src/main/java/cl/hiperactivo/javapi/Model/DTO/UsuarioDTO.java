@@ -8,6 +8,8 @@ import java.util.List;
 
 public class UsuarioDTO {
     private Integer idUsuario;
+    private String usuario;
+    private String contrasena;
     private String nombre;
     private int valid;
 
@@ -18,7 +20,10 @@ public class UsuarioDTO {
 
     public UsuarioDTO(UsuarioEntity usuarioEntity){
         this.idUsuario = usuarioEntity.getIdUsuario();
+        this.usuario = usuarioEntity.getUsuario();
+        this.contrasena = usuarioEntity.getContrasena();
         this.nombre = usuarioEntity.getNombre();
+
         this.notas = new ArrayList<NotaDTO>();
         for (NotaEntity entity : usuarioEntity.getNotas()) {
             NotaDTO notaDTO = new NotaDTO(entity);
@@ -33,6 +38,22 @@ public class UsuarioDTO {
 
     public void setIdUsuario(Integer idUsuario) {
         this.idUsuario = idUsuario;
+    }
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
     }
 
     public String getNombre() {
@@ -63,9 +84,11 @@ public class UsuarioDTO {
     public String toString() {
         return "UsuarioDTO{" +
                 "idUsuario=" + idUsuario +
+                ", usuario='" + usuario + '\'' +
+                ", contrasena='" + contrasena + '\'' +
                 ", nombre='" + nombre + '\'' +
-                ", notas=" + notas +
                 ", valid=" + valid +
+                ", notas=" + notas +
                 '}';
     }
 }

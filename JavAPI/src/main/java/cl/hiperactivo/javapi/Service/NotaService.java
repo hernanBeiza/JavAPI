@@ -10,9 +10,11 @@ public interface NotaService {
 
     NotaDTO obtenerConID(NotaDTO notaDTO);
 
-    boolean guardar(NotaDTO notaDTO);
+    ArrayList<NotaDTO> obtenerConIDUsuario(NotaDTO notaDTO);
 
-    boolean editar(NotaDTO notaDTO);
+    NotaDTO guardar(NotaDTO notaDTO);
+
+    NotaDTO editar(NotaDTO notaDTO);
 
     boolean eliminar(NotaDTO notaDTO);
 }

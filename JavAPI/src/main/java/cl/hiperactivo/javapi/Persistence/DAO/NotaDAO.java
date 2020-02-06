@@ -9,11 +9,13 @@ public interface NotaDAO {
 
     ArrayList<NotaEntity> obtener();
 
+    ArrayList<NotaEntity> obtenerConIDUsuario(NotaDTO notaDTO);
+
     NotaEntity obtenerConID(NotaDTO notaDTO);
 
-    boolean guardar(NotaDTO notaDTO);
+    NotaEntity guardar(NotaDTO notaDTO);
 
-    boolean editar(NotaDTO notaDTO);
+    NotaEntity editar(NotaDTO notaDTO);
 
     boolean eliminar(NotaDTO notaDTO);
 }

@@ -738,3 +738,230 @@
 2018-09-27 14:39:35 [32mINFO [m UsuarioController:155 - DELETE eliminar();
 2018-09-27 14:39:35 [32mINFO [m UsuarioDAOIMP:86 - eliminar();
 2018-09-27 14:39:35 [32mINFO [m UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 4
+2020-02-06 12:12:36 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 11432 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:12:36 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:13:48 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 592 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:13:48 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:13:55 INFO  JavApiApplication:59 - Started JavApiApplication in 7.777 seconds (JVM running for 10.365)
+2020-02-06 12:13:55 INFO  JavApiApplication:22 - main();
+2020-02-06 12:14:13 INFO  UsuarioController:30 - GET obtener();
+2020-02-06 12:14:13 INFO  UsuarioServiceIMP:30 - obtener();
+2020-02-06 12:14:13 INFO  UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2020-02-06 12:14:20 INFO  UsuarioController:82 - POST guardar();
+2020-02-06 12:14:26 INFO  UsuarioController:82 - POST guardar();
+2020-02-06 12:14:28 INFO  UsuarioController:82 - POST guardar();
+2020-02-06 12:14:34 INFO  UsuarioController:82 - POST guardar();
+2020-02-06 12:18:13 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 10052 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:18:13 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:18:22 INFO  JavApiApplication:59 - Started JavApiApplication in 10.16 seconds (JVM running for 12.757)
+2020-02-06 12:18:22 INFO  JavApiApplication:22 - main();
+2020-02-06 12:18:25 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:18:30 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:18:30 INFO  UsuarioDAOIMP:55 - guardar();
+2020-02-06 12:18:30 ERROR UsuarioDAOIMP:63 - org.hibernate.exception.ConstraintViolationException: could not execute statement
+2020-02-06 12:19:35 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 12688 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:19:35 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:19:43 INFO  JavApiApplication:59 - Started JavApiApplication in 9.287 seconds (JVM running for 11.678)
+2020-02-06 12:19:43 INFO  JavApiApplication:22 - main();
+2020-02-06 12:19:46 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:19:46 INFO  UsuarioDAOIMP:55 - guardar();
+2020-02-06 12:19:58 INFO  UsuarioController:30 - GET obtener();
+2020-02-06 12:19:58 INFO  UsuarioServiceIMP:30 - obtener();
+2020-02-06 12:19:58 INFO  UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2020-02-06 12:19:59 INFO  UsuarioServiceIMP:34 - Notas encontradas
+2020-02-06 12:19:59 INFO  UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', usuario='hb', contrasena='9040207', valid=1, notas=[]}]
+2020-02-06 12:20:02 INFO  UsuarioController:49 - GET obtenerConID();
+2020-02-06 12:20:02 INFO  UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 1
+2020-02-06 12:20:09 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:20:09 INFO  UsuarioDAOIMP:55 - guardar();
+2020-02-06 12:20:14 INFO  UsuarioController:178 - DELETE eliminar();
+2020-02-06 12:20:14 INFO  UsuarioDAOIMP:90 - eliminar();
+2020-02-06 12:20:14 INFO  UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 2
+2020-02-06 12:20:16 INFO  UsuarioController:178 - DELETE eliminar();
+2020-02-06 12:20:16 INFO  UsuarioDAOIMP:90 - eliminar();
+2020-02-06 12:20:16 INFO  UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 2
+2020-02-06 12:20:16 ERROR UsuarioDAOIMP:48 - No entity found for query
+2020-02-06 12:20:23 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:20:23 INFO  UsuarioDAOIMP:55 - guardar();
+2020-02-06 12:20:32 INFO  UsuarioController:127 - PUT editar();
+2020-02-06 12:20:40 INFO  UsuarioController:127 - PUT editar();
+2020-02-06 12:20:40 INFO  UsuarioDAOIMP:72 - editar();
+2020-02-06 12:20:46 INFO  UsuarioController:127 - PUT editar();
+2020-02-06 12:20:46 INFO  UsuarioDAOIMP:72 - editar();
+2020-02-06 12:21:00 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:21:22 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:21:35 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:21:35 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:23:25 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:23:25 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:23:47 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:23:57 INFO  UsuarioController:83 - POST guardar();
+2020-02-06 12:23:57 INFO  UsuarioDAOIMP:55 - guardar();
+2020-02-06 12:24:04 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:24:04 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:24:14 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:24:14 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:28:40 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 1660 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:28:40 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:28:49 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 4552 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:28:49 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:28:57 INFO  JavApiApplication:59 - Started JavApiApplication in 8.652 seconds (JVM running for 10.927)
+2020-02-06 12:28:57 INFO  JavApiApplication:22 - main();
+2020-02-06 12:29:05 INFO  NotaController:82 - POST guardar();
+2020-02-06 12:29:05 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:33:14 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 4596 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:33:14 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:33:20 INFO  JavApiApplication:59 - Started JavApiApplication in 6.824 seconds (JVM running for 8.752)
+2020-02-06 12:33:20 INFO  JavApiApplication:22 - main();
+2020-02-06 12:36:47 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:36:47 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:36:49 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:36:49 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:37:20 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 8832 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:37:20 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:37:27 INFO  JavApiApplication:59 - Started JavApiApplication in 8.087 seconds (JVM running for 10.188)
+2020-02-06 12:37:27 INFO  JavApiApplication:22 - main();
+2020-02-06 12:37:35 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:37:35 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:37:36 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:37:36 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:37:37 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:37:37 INFO  NotaDAOIMP:54 - guardar();
+2020-02-06 12:38:05 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 14180 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:38:05 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:38:12 INFO  JavApiApplication:59 - Started JavApiApplication in 7.772 seconds (JVM running for 9.894)
+2020-02-06 12:38:12 INFO  JavApiApplication:22 - main();
+2020-02-06 12:38:24 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:38:24 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:38:25 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:38:25 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:38:28 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:38:28 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:38:31 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:38:31 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:39:40 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 12700 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:39:40 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:39:49 INFO  JavApiApplication:59 - Started JavApiApplication in 9.734 seconds (JVM running for 12.734)
+2020-02-06 12:39:49 INFO  JavApiApplication:22 - main();
+2020-02-06 12:39:49 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:39:49 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:39:49 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:39:49 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:39:51 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:39:51 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:39:51 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:39:51 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:40:21 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 4752 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:40:21 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:40:27 INFO  JavApiApplication:59 - Started JavApiApplication in 7.111 seconds (JVM running for 9.132)
+2020-02-06 12:40:27 INFO  JavApiApplication:22 - main();
+2020-02-06 12:40:29 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:40:29 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:40:29 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:40:30 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:41:38 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 14776 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:41:38 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:41:49 INFO  JavApiApplication:59 - Started JavApiApplication in 11.857 seconds (JVM running for 14.698)
+2020-02-06 12:41:49 INFO  JavApiApplication:22 - main();
+2020-02-06 12:42:02 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:42:02 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:42:02 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:42:02 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:42:02 ERROR NotaDAOIMP:96 - null
+2020-02-06 12:42:41 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 12676 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:42:41 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:42:48 INFO  JavApiApplication:59 - Started JavApiApplication in 8.321 seconds (JVM running for 11.087)
+2020-02-06 12:42:48 INFO  JavApiApplication:22 - main();
+2020-02-06 12:42:55 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:42:55 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:42:55 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:42:55 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:44:30 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 15632 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:44:30 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:44:37 INFO  JavApiApplication:59 - Started JavApiApplication in 7.34 seconds (JVM running for 9.47)
+2020-02-06 12:44:37 INFO  JavApiApplication:22 - main();
+2020-02-06 12:44:41 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:44:41 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:44:41 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:44:42 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:45:27 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 11848 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:45:27 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:45:33 INFO  JavApiApplication:59 - Started JavApiApplication in 7.456 seconds (JVM running for 9.435)
+2020-02-06 12:45:33 INFO  JavApiApplication:22 - main();
+2020-02-06 12:45:41 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 14180 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:45:41 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:45:49 INFO  JavApiApplication:59 - Started JavApiApplication in 8.56 seconds (JVM running for 11.871)
+2020-02-06 12:45:49 INFO  JavApiApplication:22 - main();
+2020-02-06 12:45:53 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:46:21 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:46:21 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:46:21 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:47:04 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 7956 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:47:04 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:47:10 INFO  JavApiApplication:59 - Started JavApiApplication in 7.175 seconds (JVM running for 9.291)
+2020-02-06 12:47:10 INFO  JavApiApplication:22 - main();
+2020-02-06 12:47:13 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:47:13 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:47:13 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:47:14 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:48:12 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 7804 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:48:12 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:48:19 INFO  JavApiApplication:59 - Started JavApiApplication in 7.658 seconds (JVM running for 10.241)
+2020-02-06 12:48:19 INFO  JavApiApplication:22 - main();
+2020-02-06 12:48:23 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:48:23 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:48:23 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 11
+2020-02-06 12:48:23 ERROR NotaDAOIMP:47 - No entity found for query
+2020-02-06 12:48:28 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:48:28 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:48:28 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 8
+2020-02-06 12:48:31 INFO  NotaController:131 - PUT editar();
+2020-02-06 12:48:31 INFO  NotaDAOIMP:74 - editar();
+2020-02-06 12:48:31 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 8
+2020-02-06 12:48:36 INFO  NotaController:48 - GET obtenerConID();
+2020-02-06 12:48:36 INFO  NotaDAOIMP:40 - SELECT r FROM NotaEntity AS r WHERE r.idNota = 8
+2020-02-06 12:52:32 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 7420 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:52:32 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:52:38 INFO  JavApiApplication:59 - Started JavApiApplication in 7.624 seconds (JVM running for 9.731)
+2020-02-06 12:52:38 INFO  JavApiApplication:22 - main();
+2020-02-06 12:52:55 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:52:55 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE r.idusuario = 1
+2020-02-06 12:52:55 ERROR NotaDAOIMP:60 - org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'r.idusuario' [SELECT n FROM cl.hiperactivo.javapi.Model.Entity.NotaEntity AS n WHERE r.idusuario = 1]
+2020-02-06 12:52:55 ERROR NotaServiceIMP:75 - No se encontraron notas
+2020-02-06 12:53:20 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:53:20 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE r.idusuario = 1
+2020-02-06 12:53:20 ERROR NotaDAOIMP:60 - org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'r.idusuario' [SELECT n FROM cl.hiperactivo.javapi.Model.Entity.NotaEntity AS n WHERE r.idusuario = 1]
+2020-02-06 12:53:20 ERROR NotaServiceIMP:75 - No se encontraron notas
+2020-02-06 12:53:55 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 15008 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:53:55 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:54:02 INFO  JavApiApplication:59 - Started JavApiApplication in 7.715 seconds (JVM running for 10.544)
+2020-02-06 12:54:02 INFO  JavApiApplication:22 - main();
+2020-02-06 12:54:05 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:54:05 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE r.usuarioEntity.idusuario = 1
+2020-02-06 12:54:05 ERROR NotaDAOIMP:60 - org.hibernate.hql.internal.ast.QuerySyntaxException: Invalid path: 'r.usuarioEntity.idusuario' [SELECT n FROM cl.hiperactivo.javapi.Model.Entity.NotaEntity AS n WHERE r.usuarioEntity.idusuario = 1]
+2020-02-06 12:54:05 ERROR NotaServiceIMP:75 - No se encontraron notas
+2020-02-06 12:57:59 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 15864 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:57:59 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:58:06 INFO  JavApiApplication:59 - Started JavApiApplication in 7.461 seconds (JVM running for 9.78)
+2020-02-06 12:58:06 INFO  JavApiApplication:22 - main();
+2020-02-06 12:58:35 INFO  JavApiApplication:50 - Starting JavApiApplication on envyBook with PID 4300 (C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI\target\classes started by skizo in C:\Users\skizo\Documents\GitHub\JavAPI\JavAPI)
+2020-02-06 12:58:35 INFO  JavApiApplication:662 - No active profile set, falling back to default profiles: default
+2020-02-06 12:58:42 INFO  JavApiApplication:59 - Started JavApiApplication in 8.125 seconds (JVM running for 10.664)
+2020-02-06 12:58:43 INFO  JavApiApplication:22 - main();
+2020-02-06 12:58:48 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:58:48 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE n.usuarioEntity.idUsuario = 1
+2020-02-06 12:58:48 INFO  NotaServiceIMP:63 - Notas encontradas
+2020-02-06 12:58:48 INFO  NotaServiceIMP:64 - [NotaEntity{idNota=1, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 1', timestamp='2020-02-06 12:38:26.0', valid=1}, NotaEntity{idNota=2, titulo='Mi segunda nota', cuerpo='Ir a comprar el switch que me falta 2', timestamp='2020-02-06 12:24:14.0', valid=1}, NotaEntity{idNota=3, titulo='Mi tercera nota', cuerpo='Ir a comprar el switch que me falta 3', timestamp='2020-02-06 12:29:06.0', valid=1}, NotaEntity{idNota=4, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 4', timestamp='2020-02-06 12:36:47.0', valid=1}, NotaEntity{idNota=5, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:36:50.0', valid=1}, NotaEntity{idNota=6, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:36.0', valid=1}, NotaEntity{idNota=7, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:37.0', valid=1}, NotaEntity{idNota=8, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:38.0', valid=1}, NotaEntity{idNota=9, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:29.0', valid=1}, NotaEntity{idNota=10, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:31.0', valid=1}]
+2020-02-06 12:59:05 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:59:05 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE n.usuarioEntity.idUsuario = 2
+2020-02-06 12:59:09 INFO  NotaController:79 - GET obtenerConIDUsuario();
+2020-02-06 12:59:09 INFO  NotaDAOIMP:54 - SELECT n FROM NotaEntity AS n WHERE n.usuarioEntity.idUsuario = 1
+2020-02-06 12:59:09 INFO  NotaServiceIMP:63 - Notas encontradas
+2020-02-06 12:59:09 INFO  NotaServiceIMP:64 - [NotaEntity{idNota=1, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 1', timestamp='2020-02-06 12:38:26.0', valid=1}, NotaEntity{idNota=2, titulo='Mi segunda nota', cuerpo='Ir a comprar el switch que me falta 2', timestamp='2020-02-06 12:24:14.0', valid=1}, NotaEntity{idNota=3, titulo='Mi tercera nota', cuerpo='Ir a comprar el switch que me falta 3', timestamp='2020-02-06 12:29:06.0', valid=1}, NotaEntity{idNota=4, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 4', timestamp='2020-02-06 12:36:47.0', valid=1}, NotaEntity{idNota=5, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:36:50.0', valid=1}, NotaEntity{idNota=6, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:36.0', valid=1}, NotaEntity{idNota=7, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:37.0', valid=1}, NotaEntity{idNota=8, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:38.0', valid=1}, NotaEntity{idNota=9, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:29.0', valid=1}, NotaEntity{idNota=10, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:31.0', valid=1}]
+2020-02-06 13:00:25 INFO  UsuarioController:30 - GET obtener();
+2020-02-06 13:00:25 INFO  UsuarioServiceIMP:30 - obtener();
+2020-02-06 13:00:25 INFO  UsuarioDAOIMP:28 - SELECT n FROM UsuarioEntity AS n
+2020-02-06 13:00:25 INFO  UsuarioServiceIMP:34 - Notas encontradas
+2020-02-06 13:00:25 INFO  UsuarioServiceIMP:35 - [UsuarioEntity{idUsuario=1, nombre='Hernán', usuario='hb', contrasena='9040207', valid=1, notas=[NotaEntity{idNota=1, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 1', timestamp='2020-02-06 12:38:26.0', valid=1}, NotaEntity{idNota=2, titulo='Mi segunda nota', cuerpo='Ir a comprar el switch que me falta 2', timestamp='2020-02-06 12:24:14.0', valid=1}, NotaEntity{idNota=3, titulo='Mi tercera nota', cuerpo='Ir a comprar el switch que me falta 3', timestamp='2020-02-06 12:29:06.0', valid=1}, NotaEntity{idNota=4, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta 4', timestamp='2020-02-06 12:36:47.0', valid=1}, NotaEntity{idNota=5, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:36:50.0', valid=1}, NotaEntity{idNota=6, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:36.0', valid=1}, NotaEntity{idNota=7, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:37.0', valid=1}, NotaEntity{idNota=8, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:37:38.0', valid=1}, NotaEntity{idNota=9, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:29.0', valid=1}, NotaEntity{idNota=10, titulo='Mi primera nota', cuerpo='Ir a comprar el switch que me falta', timestamp='2020-02-06 12:38:31.0', valid=1}]}]
+2020-02-06 13:00:32 INFO  UsuarioController:49 - GET obtenerConID();
+2020-02-06 13:00:32 INFO  UsuarioDAOIMP:42 - SELECT r FROM UsuarioEntity AS r WHERE r.idUsuario = 1

@@ -19,6 +19,12 @@ public class UsuarioEntity implements Serializable {
     @Column(name="nombre")
     private String nombre;
 
+    @Column(name="usuario")
+    private String usuario;
+
+    @Column(name="contrasena")
+    private String contrasena;
+
     @Column(name = "valid")
     private int valid;
     //Nombre del atributo en NotaEntity, no de la columna
@@ -42,6 +48,22 @@ public class UsuarioEntity implements Serializable {
         this.nombre = nombre;
     }
 
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getContrasena() {
+        return contrasena;
+    }
+
+    public void setContrasena(String contrasena) {
+        this.contrasena = contrasena;
+    }
+
     public int getValid() {
         return valid;
     }
@@ -63,6 +85,8 @@ public class UsuarioEntity implements Serializable {
         return "UsuarioEntity{" +
                 "idUsuario=" + idUsuario +
                 ", nombre='" + nombre + '\'' +
+                ", usuario='" + usuario + '\'' +
+                ", contrasena='" + contrasena + '\'' +
                 ", valid=" + valid +
                 ", notas=" + notas +
                 '}';

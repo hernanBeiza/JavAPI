@@ -55,6 +55,8 @@ public class UsuarioDAOIMP implements UsuarioDAO {
         logger.info("guardar();");
         UsuarioEntity usuarioEntity = new UsuarioEntity();
         usuarioEntity.setNombre(usuarioDTO.getNombre());
+        usuarioEntity.setUsuario(usuarioDTO.getUsuario());
+        usuarioEntity.setContrasena(usuarioDTO.getContrasena());
         usuarioEntity.setValid(usuarioDTO.getValid());
         try {
             this.entityManager.persist(usuarioEntity);
@@ -71,6 +73,8 @@ public class UsuarioDAOIMP implements UsuarioDAO {
         UsuarioEntity usuarioEntity = new UsuarioEntity();
         usuarioEntity.setIdUsuario(usuarioDTO.getIdUsuario());
         usuarioEntity.setNombre(usuarioDTO.getNombre());
+        usuarioEntity.setUsuario(usuarioDTO.getUsuario());
+        usuarioEntity.setContrasena(usuarioDTO.getContrasena());
         usuarioEntity.setValid(usuarioDTO.getValid());
         try {
             this.entityManager.merge(usuarioEntity);

@@ -48,9 +48,22 @@ public class NotaDAOIMP implements NotaDAO {
             return null;
         }
     }
+    @Override
+    public ArrayList<NotaEntity> obtenerConIDUsuario(NotaDTO notaDTO) {
+        String query = "SELECT n FROM NotaEntity AS n WHERE n.usuarioEntity.idUsuario = "+notaDTO.getIdUsuario();
+        logger.info(query);
+        try {
+            //Object result = entityManager.createQuery(query).getSingleResult();
+            //System.out.println(result.toString());
+            return (ArrayList<NotaEntity>) entityManager.createQuery(query).getResultList();
+        } catch (Exception e){
+            logger.error(e.getLocalizedMessage());
+            return null;
+        }
+    }
 
     @Override
-    public boolean guardar(NotaDTO notaDTO) {
+    public NotaEntity guardar(NotaDTO notaDTO) {
         logger.info("guardar();");
         try {
             NotaEntity notaEntity = new NotaEntity();
@@ -61,32 +74,40 @@ public class NotaDAOIMP implements NotaDAO {
             notaEntity.setCuerpo(notaDTO.getCuerpo());
             notaEntity.setValid(notaDTO.getValid());
             this.entityManager.persist(notaEntity);
-            return true;
+            this.entityManager.flush();
+            return notaEntity;
         } catch(Exception e){
             logger.error(e.getLocalizedMessage());
-            return false;
+            return null;
         }
     }
 
     @Override
-    public boolean editar(NotaDTO notaDTO) {
+    public NotaEntity editar(NotaDTO notaDTO) {
         logger.info("editar();");
         try {
-            NotaEntity notaEntity = new NotaEntity();
-            notaEntity.setIdNota(notaDTO.getIdNota());
+            NotaEntity notaEntity = this.obtenerConID(notaDTO);
+            if(notaEntity!=null) {
+                System.out.println("Nota encontrada");
+                notaEntity.setIdNota(notaDTO.getIdNota());
 
-            UsuarioEntity usuarioEntity = new UsuarioEntity();
-            usuarioEntity.setIdUsuario(notaDTO.getIdUsuario());
-            notaEntity.setUsuarioEntity(usuarioEntity);
+                UsuarioEntity usuarioEntity = new UsuarioEntity();
+                usuarioEntity.setIdUsuario(notaDTO.getIdUsuario());
+                notaEntity.setUsuarioEntity(usuarioEntity);
 
-            notaEntity.setTitulo(notaDTO.getTitulo());
-            notaEntity.setCuerpo(notaDTO.getCuerpo());
-            notaEntity.setValid(notaDTO.getValid());
-            this.entityManager.merge(notaEntity);
-            return true;
+                notaEntity.setTitulo(notaDTO.getTitulo());
+                notaEntity.setCuerpo(notaDTO.getCuerpo());
+                notaEntity.setValid(notaDTO.getValid());
+                this.entityManager.merge(notaEntity);
+                this.entityManager.flush();
+                return notaEntity;
+            } else {
+                System.out.println("Nota no encontrada");
+                return null;
+            }
         } catch(Exception e){
             logger.error(e.getLocalizedMessage());
-            return false;
+            return null;
         }
     }
 
