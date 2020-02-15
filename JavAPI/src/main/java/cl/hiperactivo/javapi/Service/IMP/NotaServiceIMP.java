@@ -74,7 +74,8 @@ public class NotaServiceIMP implements NotaService {
         } else {
             logger.error("No se encontraron notas");
             return null;
-        }    }
+        }
+    }
 
     @Override
     public NotaDTO guardar(NotaDTO notaDTO) {

@@ -1,9 +1,8 @@
 package cl.hiperactivo.javapi.Controller;
 
-import cl.hiperactivo.javapi.Model.DTO.NotaDTO;
 import cl.hiperactivo.javapi.Model.DTO.UsuarioDTO;
-import cl.hiperactivo.javapi.Service.NotaService;
 import cl.hiperactivo.javapi.Service.UsuarioService;
+import javax.validation.Valid;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -72,6 +71,25 @@ public class UsuarioController {
             result.put("errores",errores);
         }
         return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
+    }
+
+
+    @RequestMapping(value = {"/todo"}, method = RequestMethod.POST)
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<Map<String,Object>>guardarTodo(@Valid @RequestBody UsuarioDTO usuarioDTO) {
+        logger.info("POST guardarTodo();");
+        System.out.println(usuarioDTO);
+      Map <String, Object> result = new HashMap<>();
+
+      if(this.usuarioService.guardarTodo(usuarioDTO)){
+        result.put("result",true);
+        result.put("mensajes","Usuario guardado correctamente");
+      } else {
+        result.put("result",false);
+        result.put("errores","El usuario no se pudo guardar");
+      }
+
+      return new ResponseEntity<Map<String,Object>>(result, HttpStatus.OK);
     }
 
     @RequestMapping(value = {"","/"}, method = RequestMethod.POST)

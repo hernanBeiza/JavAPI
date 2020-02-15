@@ -68,6 +68,35 @@ public class UsuarioDAOIMP implements UsuarioDAO {
     }
 
     @Override
+    public boolean guardarTodo(UsuarioDTO usuarioDTO) {
+        logger.info("guardarTodo();");
+        UsuarioEntity usuarioEntity = new UsuarioEntity();//this.obtenerConID(usuarioDTO);
+        usuarioEntity.setNombre(usuarioDTO.getNombre());
+        usuarioEntity.setUsuario(usuarioDTO.getUsuario());
+        usuarioEntity.setContrasena(usuarioDTO.getContrasena());
+        usuarioEntity.setValid(usuarioDTO.getValid());
+
+        ArrayList<NotaEntity> notas = new ArrayList<NotaEntity>();
+        for (NotaDTO notaDTO : usuarioDTO.getNotas()){
+            NotaEntity notaEntity = new NotaEntity();
+            notaEntity.setUsuarioEntity(usuarioEntity);
+            notaEntity.setTitulo(notaDTO.getTitulo());
+            notaEntity.setCuerpo(notaDTO.getCuerpo());
+            notas.add(notaEntity);
+        }
+
+        usuarioEntity.setNotas(notas);
+
+        try {
+            this.entityManager.persist(usuarioEntity);
+            return true;
+        } catch(Exception e){
+            logger.error(e.getLocalizedMessage());
+            return false;
+        }
+    }
+
+    @Override
     public boolean editar(UsuarioDTO usuarioDTO) {
         logger.info("editar();");
         UsuarioEntity usuarioEntity = new UsuarioEntity();

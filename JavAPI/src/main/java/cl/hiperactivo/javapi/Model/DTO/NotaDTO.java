@@ -16,7 +16,7 @@ public class NotaDTO {
     public NotaDTO(NotaEntity notaEntity){
         if(notaEntity!=null){
             this.idNota = notaEntity.getIdNota();
-            this.idUsuario = notaEntity.getUsuarioEntity().getIdUsuario();
+            //this.idUsuario = notaEntity.getUsuarioEntity().getIdUsuario();
             this.titulo = notaEntity.getTitulo();
             this.cuerpo = notaEntity.getCuerpo();
             this.timestamp = notaEntity.getTimestamp();

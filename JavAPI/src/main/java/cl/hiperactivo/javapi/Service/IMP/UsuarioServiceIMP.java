@@ -65,6 +65,11 @@ public class UsuarioServiceIMP implements UsuarioService {
     }
 
     @Override
+    public boolean guardarTodo(UsuarioDTO usuarioDTO) {
+        return this.usuarioDAO.guardarTodo(usuarioDTO);
+    }
+
+    @Override
     public boolean editar(UsuarioDTO usuarioDTO) {
         return this.usuarioDAO.editar(usuarioDTO);
     }

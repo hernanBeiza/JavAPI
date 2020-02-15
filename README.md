@@ -113,3 +113,7 @@ El objetivo de esta capa es:
 ## Dependencias Usadas
 ### log4j2
 Usada para loggear o escribir mensajes de salida en un archivo de texto. Además permite colorear las salidas de los mensajes para fácil reconocimiento de la gravedad de los mensajes
+
+## Documentación
+
+- https://stackoverflow.com/questions/35197947/jpa-persist-parent-and-child-with-one-to-many-relationship

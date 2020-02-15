@@ -32,6 +32,7 @@ public class NotaEntity implements Serializable {
 
     @ManyToOne
     @JoinColumn(name="idusuario")
+    //@JsonManagedReference
     @JsonBackReference
     private UsuarioEntity usuarioEntity;
 

@@ -69,7 +69,7 @@ public class NotaDAOIMP implements NotaDAO {
             NotaEntity notaEntity = new NotaEntity();
             UsuarioEntity usuarioEntity = new UsuarioEntity();
             usuarioEntity.setIdUsuario(notaDTO.getIdUsuario());
-            notaEntity.setUsuarioEntity(usuarioEntity);
+            //notaEntity.setUsuarioEntity(usuarioEntity);
             notaEntity.setTitulo(notaDTO.getTitulo());
             notaEntity.setCuerpo(notaDTO.getCuerpo());
             notaEntity.setValid(notaDTO.getValid());
@@ -93,7 +93,7 @@ public class NotaDAOIMP implements NotaDAO {
 
                 UsuarioEntity usuarioEntity = new UsuarioEntity();
                 usuarioEntity.setIdUsuario(notaDTO.getIdUsuario());
-                notaEntity.setUsuarioEntity(usuarioEntity);
+                //notaEntity.setUsuarioEntity(usuarioEntity);
 
                 notaEntity.setTitulo(notaDTO.getTitulo());
                 notaEntity.setCuerpo(notaDTO.getCuerpo());

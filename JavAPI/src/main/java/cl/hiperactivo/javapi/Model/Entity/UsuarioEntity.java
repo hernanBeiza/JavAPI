@@ -28,7 +28,7 @@ public class UsuarioEntity implements Serializable {
     @Column(name = "valid")
     private int valid;
     //Nombre del atributo en NotaEntity, no de la columna
-    @OneToMany(mappedBy = "usuarioEntity", cascade = CascadeType.REMOVE)
+    @OneToMany(mappedBy = "usuarioEntity", cascade = CascadeType.ALL)
     @JsonManagedReference
     private List<NotaEntity> notas;
 

@@ -15,6 +15,8 @@ public interface UsuarioDAO {
 
     boolean guardar(UsuarioDTO usuarioDTO);
 
+    boolean guardarTodo(UsuarioDTO usuarioDTO);
+
     boolean editar(UsuarioDTO usuarioDTO);
 
     boolean eliminar(UsuarioDTO usuarioDTO);
